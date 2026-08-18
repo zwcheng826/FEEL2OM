@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+numpy==1.26.4
+scikit-learn==1.7.2
+torch==2.1.2+cu118
+tqdm==4.68.3
+
+# Required only for scripts/extract_rna_fm_features.py when using the RNA-FM repository.
+fairseq==0.12.2
+hydra-core==1.0.7
+omegaconf==2.0.6
